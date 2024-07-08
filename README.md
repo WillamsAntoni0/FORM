@@ -9,13 +9,7 @@
 <script 
  src="https://kit.fontawesome.com/6ca0558071.js"  crossorigin="anonymous"></script> 
     <title>conta Oasis game</title>
-
-    
 <style>
-
-
-
-
 .input{
   padding: 15px;
   padding-left: 20%;
@@ -24,7 +18,6 @@
   border:none;
   outline-color:purple;
 }
-
 #email{
   padding: 15px;
   padding-left: 20%;
@@ -33,7 +26,6 @@
   border:none;
   outline-color:purple;
 }
-
 
 #senha{
   padding: 15px;
@@ -57,9 +49,6 @@ padding:15px;
   left:85%;
   botto:60%;
 }
-
-
-
 .div-dominante{
          background: black;
          position: absolute;
@@ -72,8 +61,7 @@ padding:15px;
          padding-top:2px;
          padding-bottom: 7%;
          outline-color: purple;
-}
-
+         }
 h1{
 font-size: 55px;
 position: relative;
@@ -103,7 +91,6 @@ button:hover{
       background-image:linear-gradient(180deg,purple,red);
 }
 
-
 body{
 font-family:Arial,Helvetica,sans-serif;
 }
@@ -120,26 +107,12 @@ position:relative;
  left:1%;
  top:3px;
 }
-
 body{
 background-color:#000000ce;
 }
-
 </style>
-
-</head>
-    <body>
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-   <title>Título da página</title>
-  <link rel="stylesheet" href="Naruto.css">
-</head>
-<body>
-    
-
-
+    </head>
+       <body>
 <div class="div-dominante">
    <form>
         <h1>Login</h1>
@@ -155,9 +128,6 @@ background-color:#000000ce;
        <i class="fa-solid fa-lock"></i>
     <i class="fa fa-eye" id="btn-senha" onclick="mostrarSenha"></i>
       <input id="senha"  type="password"  placeholder=" senha" required>
-
- 
-
 <br>
    
     <input type="checkbox" id="checkbox">
@@ -193,6 +163,9 @@ togglePassword.addEventListener("click", function () {
     togglePassword.classList.add("fa-eye");
   }
 });
+</script>
+    </body>
+        </html>
 
  </script>
     </body>
